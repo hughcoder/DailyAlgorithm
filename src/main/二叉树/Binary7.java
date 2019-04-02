@@ -10,17 +10,6 @@ import java.util.Queue;
 //2.那我们从这个数据存储中也要以2,3,4来取，先进先出， 就可以用队列的概念，也可以用arrayList每次移除最前面一位
 //3.按相应的顺序寸值  在按相应的顺序取值
 public class Binary7 {
-    public static class TreeNode {
-        int val = 0;
-        TreeNode left = null;
-        TreeNode right = null;
-
-        public TreeNode(int val) {
-            this.val = val;
-
-        }
-
-    }
 
     public static ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
 
