@@ -8,6 +8,31 @@ import java.util.ArrayList;
 
 public class Binary10 {
 
+    static ArrayList<Integer> path = new ArrayList<>();
+    static ArrayList<ArrayList<Integer>> pathList = new ArrayList<>();
+
+    public static ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
+        if (root == null) {
+            return pathList;
+        }
+        path.add(root.val);
+
+        if(root.left==null && root.right==null && root.val == target){
+            pathList.add(new ArrayList<>(path));
+        }
+
+        if(root.left!=null && root.val<target){
+            FindPath(root.left,target-root.val);
+        }
+
+        if(root.right!=null && root.val<target){
+            FindPath(root.right,target-root.val);
+        }
+
+        path.remove(path.size()-1);
+
+       return pathList;
+    }
 
     public static void main(String args[]) {
         TreeNode treeNode = new TreeNode(10);
@@ -19,16 +44,16 @@ public class Binary10 {
         treeNode.right = right;
 
         ArrayList<ArrayList<Integer>> resultList = new ArrayList<ArrayList<Integer>>();
-//        resultList = FindPath(treeNode, 22);
-      //  System.out.println(resultList.size());
-//        for (int i = 0; i < resultList.size(); i++) {
-//            ArrayList<Integer> aa = new ArrayList<>();
-//            aa = resultList.get(i);
-//            System.out.println("cccc"+aa.size());
-//            for (int j = 0; j < aa.size(); j++) {
-//                System.out.println("-----------------" + aa.get(j));
-//            }
-//        }
+        resultList = FindPath(treeNode, 22);
+          System.out.println(resultList.size());
+        for (int i = 0; i < resultList.size(); i++) {
+            ArrayList<Integer> aa = new ArrayList<>();
+            aa = resultList.get(i);
+            System.out.println("cccc"+aa.size());
+            for (int j = 0; j < aa.size(); j++) {
+                System.out.println("-----------------" + aa.get(j));
+            }
+        }
     }
 
 }
