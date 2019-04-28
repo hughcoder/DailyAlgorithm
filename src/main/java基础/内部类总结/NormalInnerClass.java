@@ -28,6 +28,10 @@ class Out {
             publicOutPrint();
             privateOutPrint();
         }
+
+//        public static void method(){
+//
+//        }
     }
 }
 

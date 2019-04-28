@@ -25,6 +25,10 @@ class Out2 {
                 privateOutPrint();
                 return age;
             }
+            //局部内部类不能使用静态方法
+//            public static void method(){
+//
+//            }
 
         }
         return new innerClass();
