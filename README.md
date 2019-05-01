@@ -32,7 +32,29 @@ equals 默认实现是 == 一些类都会覆写
 hashCode ： Object 的 native方法 , 获取对象的哈希值，用于确定该对象在哈希表中的索引位置，它实际上是一个int型整数
 ！！ 这边最好能引申到栈内存和堆内存  //看下jvm
 
-### 4.Integer和int的区别？在什么时候用Integer和什么时候用int
+### 4.java的集合以及集合之间的继承关系
+
+-----Collection
+* List 有序可重复   （ArrayList 可以用来查改  LinkedList 可以用来增删） ArrayList是实现了基于动态数组的数据结构，而LinkedList是基于链表的数据结构
+* Set  无序不重复  （HashSet:无序   TreeSet:需要排序）
+-----Map
+* Map  映射关系     (HashMap:无序  TreeMap:排序)
+
+Collection和Map最大的区别就是Collection存储的是一组对象；Map是以“键值对”的形式对对象进行的管理
+
+--List
+
+* ArrayList
+1.可变大小
+2.非线程安全
+3.动态增长
+
+* LinkedList
+1.是一个双链表
+2.非线程安全
 
 
+### 5.HashMap HashTable ConcurrentHashMap区别
+HashMap 线程不安全
+Hashtable是jdk1的一个遗弃的类，它把所有方法都加上synchronized关键字来实现线程安全。所有的方法都同步这样造成多个线程访问效率特别低
 
