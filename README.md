@@ -58,3 +58,54 @@ Collection和Map最大的区别就是Collection存储的是一组对象；Map是
 HashMap 线程不安全
 Hashtable是jdk1的一个遗弃的类，它把所有方法都加上synchronized关键字来实现线程安全。所有的方法都同步这样造成多个线程访问效率特别低
 
+
+### 6.对反射的了解
+Java 强类型语言，但是我们在运行时有了解、修改信息的需求，包括类信息、成员信息以及数组信息。
+
+### 得到一个 Class 对象
+以下是几种获取Class对象的方法
+* 1.Object.getClass 方法
+```java
+Class c = "com.hugh".getClass();
+
+```
+
+* 2.在要获得的类名后加上 .class ，比如这样：
+```java
+Integer.class.newInstance();
+int.class.newInstance()
+
+//可以看到，这种方式不仅能用于引用类型，基本类型也可以。
+ // 当然数组也可以：x`
+ Class b = int[][].class;
+```
+
+* 3.Class.forName()
+如果我们有一个类的完整路径，就可以使用 Class.forName(“类完整的路径”) 来得到相应的 Class，这个方法只能用于引用类型，比如：
+
+```java
+Class<?> c = Class.forName("java.lang.String");
+Class<?> aClass = Class.forName("com.hugh.demo1.beans.BookBean"); //包名加路径
+
+
+//  具体参考这个类MethodTypeSpy
+```
+
+！！！ 有时间了解下反射的原理 运行时
+
+
+
+### 7.对注解的了解？
+为程序的元素（类、方法、成员变量）加上更直观的说明，`这些说明信息是与程序的业务逻辑无关，并且供指定的工具或框架使用。`Annontation像一种修饰符一样，应用于包、类型、构造方法、方法、成员变量、参数及本地变量的声明语句中。 
+Java 注解是附加在代码中的一些元信息，用于一些工具在编译、运行时进行解析和使用，起到说明、配置的功能。`注解不会也不能影响代码的实际逻辑，仅仅起到辅助性的作用。`
+
+
+
+
+
+
+### 8.对依赖注入的了解？
+
+
+### 9.对泛型的了解？
+
