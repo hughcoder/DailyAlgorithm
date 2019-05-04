@@ -2,40 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49872925-0811-4f0d-a90c-5e066820c238" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MethodTypeSpy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotions/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotions/FruitColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotions/FruitInfoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotions/FruitName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotions/FruitProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotions/TestFruitAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/内部类总结/NormalInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/内部类总结/Out$In.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/内部类总结/Out.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/内部类总结/Out2$1innerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/内部类总结/Out2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/内部类总结/Out3$In.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/内部类总结/Out3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/内部类总结/Out4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/内部类总结/Out4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/内部类总结/PartInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/内部类总结/anonymous.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/内部类总结/anonymousInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/内部类总结/extendInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/内部类总结/staticInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/子父类相关/ExeSeqTest$A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/子父类相关/ExeSeqTest$B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/子父类相关/ExeSeqTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/子父类相关/Fu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java基础/子父类相关/Zi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java基础/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java基础/内部类总结/NormalInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/内部类总结/NormalInnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java基础/内部类总结/PartInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/内部类总结/PartInnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java基础/内部类总结/anonymousInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/内部类总结/anonymousInnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java基础/内部类总结/staticInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/内部类总结/staticInnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java基础/子父类相关/ExeSeqTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/子父类相关/ExeSeqTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java基础/子父类相关/Fu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/子父类相关/Fu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java基础/子父类相关/Zi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/子父类相关/Zi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java基础/集合类相关/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/集合类相关/ListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,28 +36,19 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="418">
-                <caret line="87" selection-start-line="87" selection-end-line="87" selection-end-column="66" />
+              <first_editor relative-caret-position="-114">
+                <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Test1.java">
+      <file leaf-file-name="FruitColor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/annotions/FruitColor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MethodTypeSpy.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MethodTypeSpy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="135">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,24 +56,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Book.java">
+      <file leaf-file-name="FruitProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/annotions/FruitProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#61#62#0" expanded="true" />
-                <element signature="e#84#85#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/集合类相关/ListTest.java">
+      <file leaf-file-name="FruitInfoUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/annotions/FruitInfoUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Apple.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/annotions/Apple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestFruitAnnotation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/annotions/TestFruitAnnotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FruitName.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/annotions/FruitName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,6 +132,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -138,9 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/Zj1.java" />
-        <option value="$PROJECT_DIR$/src/main/Zj2.java" />
-        <option value="$PROJECT_DIR$/src/main/Zj3.java" />
         <option value="$PROJECT_DIR$/src/main/JZ4.java" />
         <option value="$PROJECT_DIR$/src/main/JZ5.java" />
         <option value="$PROJECT_DIR$/src/main/digui递归/JZ5.java" />
@@ -181,11 +190,17 @@
         <option value="$PROJECT_DIR$/src/main/java基础/内部类总结/PartInnerClass.java" />
         <option value="$PROJECT_DIR$/src/main/java基础/内部类总结/NormalInnerClass.java" />
         <option value="$PROJECT_DIR$/src/main/java基础/集合类相关/ListTest.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java基础/Test1.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test1.java" />
         <option value="$PROJECT_DIR$/src/main/java/MethodTypeSpy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/annotions/FruitName.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/annotions/FruitColor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/annotions/FruitProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/annotions/FruitInfoUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/annotions/Apple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/annotions/TestFruitAnnotation.java" />
       </list>
     </option>
   </component>
@@ -246,6 +261,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="annotions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="集合类相关" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -276,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MethodTypeSpy">
+  <component name="RunManager" selected="Application.TestFruitAnnotation">
     <configuration name="MethodTypeSpy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.MethodTypeSpy" />
       <module name="Leetcode" />
@@ -310,6 +333,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="TestFruitAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.annotions.TestFruitAnnotation" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.annotions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Zi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.子父类相关.Zi" />
       <module name="Leetcode" />
@@ -323,17 +357,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="anonymousInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.内部类总结.anonymousInnerClass" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.内部类总结.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -374,19 +397,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.anonymousInnerClass" />
       <item itemvalue="Application.NormalInnerClass" />
       <item itemvalue="Application.Zi" />
       <item itemvalue="Application.Test1" />
       <item itemvalue="Application.MethodTypeSpy" />
+      <item itemvalue="Application.TestFruitAnnotation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestFruitAnnotation" />
         <item itemvalue="Application.MethodTypeSpy" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Zi" />
         <item itemvalue="Application.NormalInnerClass" />
-        <item itemvalue="Application.anonymousInnerClass" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +445,7 @@
       <workItem from="1554181195583" duration="17781000" />
       <workItem from="1556450955253" duration="5132000" />
       <workItem from="1556629029130" duration="3973000" />
-      <workItem from="1556965005329" duration="3769000" />
+      <workItem from="1556965005329" duration="5269000" />
     </task>
     <task id="LOCAL-00001" summary="日常练习 坚持坚持">
       <created>1540631410336</created>
@@ -470,7 +493,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91754000" />
+    <option name="totallyTimeSpent" value="93254000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,12 +517,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872927" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32872927" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32961783" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32872927" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22818312" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22818312" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -536,42 +559,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/Zj2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Zj1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Zj2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/递归/JZ4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Zj3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/递归/JZ5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/递归/JZ6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -804,26 +791,6 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Hashtable.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/HashMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/集合类相关/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="418">
-            <caret line="87" selection-start-line="87" selection-end-line="87" selection-end-column="66" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -842,12 +809,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MethodTypeSpy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/集合类相关/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="270">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MethodTypeSpy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/annotions/FruitName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-114">
+            <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/annotions/FruitColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/annotions/FruitProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/annotions/FruitInfoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/annotions/Apple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/annotions/TestFruitAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
           </folding>
         </state>
       </provider>
