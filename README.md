@@ -140,7 +140,50 @@ Java 注解是附加在代码中的一些元信息，用于一些工具在编译
  
 
 ### 8.对依赖注入的了解？
+DL框架
 
+之前：
+
+```java
+//编写代码时我们常常会发现有一些类是依赖于其它类的。所以类A可能需要一个类B的引用或对象。 ---这就是依赖 一个类 要去使用其他类相应的一些方法或属性
+public class Car{
+
+private Engine engine;
+
+public Car(){
+
+engine=new PetrolEngine();
+}
+}
+```
+
+依赖注入
+
+```java
+	
+public class Car{  
+
+    private Engine engine;
+
+    public Car(Engine engine){
+
+        this.engine=engine;
+        }
+        }
+```
+
+我们通过Car 的构造函数，向Car 传递了一个Engine 对象。
+
+这意味着两个对象之间的耦合变低了。
+
+Car类不需要知道 Engine 的具体实现，只要继承了原始 Engine 类，任何类型 Engine 都符合要求。
+它最基本的用法就是向类中传递一个依赖，而不是直接在类中实例化。
 
 ### 9.对泛型的了解？
+“泛型” 意味着编写的代码可以被不同类型的对象所重用。
 
+### 10.静态代理和动态代理的区别？有什么场景使用？
+这里看下设计模式在总结吧！！
+
+
+## 线程与并发
