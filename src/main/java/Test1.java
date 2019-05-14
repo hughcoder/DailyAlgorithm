@@ -27,6 +27,8 @@ public class Test1 {
 //        System.out.println(c == e.toString());//F
 //        System.out.println(c == d);//T
 
+        System.out.println(0x3c << 16);
+
 
         Class<?> aClass = Class.forName("main.Book");
         System.out.println(aClass.getClass().getSimpleName());
