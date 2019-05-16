@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49872925-0811-4f0d-a90c-5e066820c238" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/threads/Thread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/抽象建模/Solution15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/链表/Node4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/threads/InterruptByFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/threads/MultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/threads/ThreadEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/threads/ThreadRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/threads/Thread1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/main/threads/Thread1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/threads/Thread1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/threads/Thread1$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/threads/Thread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/main/threads/Thread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/threads/Thread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/threads/Thread1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,38 +35,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="313">
-                <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
+              <first_editor relative-caret-position="376">
+                <caret line="237" lean-forward="true" selection-start-line="237" selection-end-line="237" />
+                <folding>
+                  <element signature="e#131#132#0" expanded="true" />
+                  <element signature="e#160#161#0" expanded="true" />
+                  <element signature="e#78#79#0" expanded="true" />
+                  <element signature="e#116#117#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/threads/Thread1.java">
+      <file leaf-file-name="MultiThread.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/threads/MultiThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadEx.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/threads/ThreadEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#133#561#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#770#779#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <file leaf-file-name="ThreadRun.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/threads/ThreadRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="720" column="31" lean-forward="true" selection-start-line="720" selection-start-column="31" selection-end-line="720" selection-end-column="31" />
+            <state relative-caret-position="390">
+              <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -80,6 +99,7 @@
       <find>peek</find>
       <find>TreeNode</find>
       <find>put</find>
+      <find>Thread</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,10 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/链表/Node2.java" />
-        <option value="$PROJECT_DIR$/src/main/字符串/Str1.java" />
-        <option value="$PROJECT_DIR$/src/main/二叉树/Binary1.java" />
-        <option value="$PROJECT_DIR$/src/main/二叉树/Binary2.java" />
         <option value="$PROJECT_DIR$/src/main/数组/ZJ29.java" />
         <option value="$PROJECT_DIR$/src/main/二叉树/Binary3.java" />
         <option value="$PROJECT_DIR$/src/main/Test1.java" />
@@ -138,7 +154,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Test1.java" />
         <option value="$PROJECT_DIR$/src/main/抽象建模/Solution15.java" />
         <option value="$PROJECT_DIR$/src/main/threads/Thread1.java" />
+        <option value="$PROJECT_DIR$/src/main/threads/InterruptByFuture.java" />
+        <option value="$PROJECT_DIR$/src/main/threads/ThreadEx.java" />
+        <option value="$PROJECT_DIR$/src/main/threads/ThreadRun.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/threads/MultiThread.java" />
       </list>
     </option>
   </component>
@@ -167,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,27 +220,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="抽象建模" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DailyAlgorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DailyAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="栈相关" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DailyAlgorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DailyAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,25 +253,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Thread1">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.设计模式.代理模式.静态代理.Client" />
+  <component name="RunManager" selected="Application.ThreadRun">
+    <configuration name="InterruptByFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.threads.InterruptByFuture" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.设计模式.代理模式.静态代理.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MethodTypeSpy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.MethodTypeSpy" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.*" />
+          <option name="PATTERN" value="main.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,19 +276,30 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TestFruitAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.annotions.TestFruitAnnotation" />
+    <configuration name="Thread1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.threads.Thread1" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.annotions.*" />
+          <option name="PATTERN" value="main.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Thread1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.threads.Thread1" />
+    <configuration name="ThreadEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.threads.ThreadEx" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ThreadRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.threads.ThreadRun" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -346,18 +352,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test1" />
-      <item itemvalue="Application.MethodTypeSpy" />
-      <item itemvalue="Application.TestFruitAnnotation" />
-      <item itemvalue="Application.Client" />
       <item itemvalue="Application.Thread1" />
+      <item itemvalue="Application.InterruptByFuture" />
+      <item itemvalue="Application.ThreadEx" />
+      <item itemvalue="Application.ThreadRun" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadRun" />
+        <item itemvalue="Application.ThreadEx" />
+        <item itemvalue="Application.InterruptByFuture" />
         <item itemvalue="Application.Thread1" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.TestFruitAnnotation" />
-        <item itemvalue="Application.MethodTypeSpy" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +405,8 @@
       <workItem from="1557278697524" duration="743000" />
       <workItem from="1557554879667" duration="49000" />
       <workItem from="1557560871838" duration="2487000" />
-      <workItem from="1557740932968" duration="5245000" />
+      <workItem from="1557740932968" duration="5530000" />
+      <workItem from="1557883387893" duration="8083000" />
     </task>
     <task id="LOCAL-00001" summary="日常练习 坚持坚持">
       <created>1540631410336</created>
@@ -447,7 +454,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110687000" />
+    <option name="totallyTimeSpent" value="119055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -473,10 +480,10 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32872927" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32872927" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32872927" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24678111" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18526466" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -513,55 +520,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/链表/Node2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/链表/Node1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/二叉树/Binary1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="66" lean-forward="true" selection-start-line="6" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/二叉树/Binary2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/二叉树/Binary3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/二叉树/Binary4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="47" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/二叉树/Binary5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/二叉树/Binary6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -736,16 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,10 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,9 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,33 +788,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="720" column="31" lean-forward="true" selection-start-line="720" selection-start-column="31" selection-end-line="720" selection-end-column="31" />
+        <state relative-caret-position="326">
+          <caret line="166" column="6" selection-start-line="166" selection-start-column="6" selection-end-line="166" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/threads/InterruptByFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="21" />
+          <folding>
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/threads/Thread1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#133#561#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#770#779#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="537" column="3" lean-forward="true" selection-start-line="537" selection-start-column="3" selection-end-line="548" selection-end-column="7" />
+          <folding>
+            <element signature="e#19132#19133#0" expanded="true" />
+            <element signature="e#19175#19176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/threads/ThreadEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/threads/ThreadRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="313">
-            <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
+          <first_editor relative-caret-position="376">
+            <caret line="237" lean-forward="true" selection-start-line="237" selection-end-line="237" />
+            <folding>
+              <element signature="e#131#132#0" expanded="true" />
+              <element signature="e#160#161#0" expanded="true" />
+              <element signature="e#78#79#0" expanded="true" />
+              <element signature="e#116#117#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/threads/MultiThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
