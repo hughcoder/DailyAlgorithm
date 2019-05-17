@@ -55,6 +55,22 @@ Collection和Map最大的区别就是Collection存储的是一组对象；Map是
 
 
 ### 5.HashMap HashTable ConcurrentHashMap区别
-HashMap 线程不安全
-Hashtable是jdk1的一个遗弃的类，它把所有方法都加上synchronized关键字来实现线程安全。所有的方法都同步这样造成多个线程访问效率特别低
+HashMap  HashMap由数组+链表组成的，数组是HashMap的主体，链表则是主要为了解决哈希冲突而存在的，线程不安全
+1.本质数组+链表
+2.hash值put 、 扩容
+3.Fail-Fast机制 防止其他线程操作
+Hashtable 是jdk1的一个遗弃的类，它把所有方法都加上synchronized关键字来实现线程安全。所有的方法都同步这样造成多个线程访问效率特别低
+1.将hashMap锁住
+ConcurrentHashMap :Segment数组的意义就是将一个大的table分割成多个小的table来进行加锁，也就是上面的提到的锁分离技术，而每一个Segment元素存储的是HashEntry数组+链表，这个和HashMap的数据存储结构一样
+2.分块加锁
+
+理解HashMap 的put get源码
+一、 put
+* 判断 value 是否为空，为空则抛出异常；
+* 计算 key 的 hash 值，并根据 hash 值获得 key 在 table 数组中的位置 index，如果 table[index] 元素不为空，则进行迭代，如果遇到相同的 key，则直接替换，并返回旧 value；
+* 否则，我们可以将其插入到 table[index] 位置。
+二、 get
+*首先通过 hash()方法求得 key 的哈希值，
+*然后根据 hash 值得到 index 索引（上述两步所用的算法与 put 方法都相同）。
+*然后迭代链表，返回匹配的 key 的对应的 value；找不到则返回 null。
 

@@ -7,6 +7,7 @@ import java.util.LinkedList;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class ListTest {
+
     public static void main(String args[]){
         ArrayList arrayList = new ArrayList();
         LinkedList linkedList = new LinkedList();
@@ -19,5 +20,7 @@ public class ListTest {
         HashMap hashMap = new HashMap();
         Hashtable hashtable = new Hashtable();
         ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
+
+        ListTest[] b;
     }
 }
