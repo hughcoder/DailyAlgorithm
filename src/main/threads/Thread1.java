@@ -22,7 +22,7 @@ public class Thread1 {
     private class MyThread extends Thread{
         @Override
         public void run() {
-            while (!Thread.currentThread().isInterrupted()) {
+            while (!Thread.currentThread().isInterrupted()) { //while重复执行
                 try {
                     System.out.println("test");
                     Thread.sleep(1000);
