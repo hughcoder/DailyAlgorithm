@@ -1,4 +1,4 @@
-package main.栈相关;
+package main.栈相关和队列;
 
 import java.util.Stack;
 
