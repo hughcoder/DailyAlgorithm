@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49872925-0811-4f0d-a90c-5e066820c238" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Leetcode/Testd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Leetcode/day1/Leet141.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Leetcode/day1/Leet142.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Leetcode/day1/Leet206.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Leetcode/day1/Leet24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Leetcode/day1/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/栈相关和队列/Stack2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/贪心算法/TanXin1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Leetcode/day1/Leet20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Leetcode/day1/Leet232.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Leetcode/day1/Leet235.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Leetcode/day2/Leet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Leetcode/day2/Leet239.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Leetcode/day2/Leet242.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Leetcode/day2/Leet703.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/META-INF/Leetcode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java/子父类相关/ExeSeqTest$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/main/java/子父类相关/ExeSeqTest$A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/java/泛型/Generic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/main/java/泛型/Generic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/栈相关/Stack1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/栈相关/Zj1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/栈相关/Stack1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/栈相关和队列/Stack1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/栈相关/Zj1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/栈相关和队列/Zj1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/main/Leetcode/Testd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/main/Leetcode/Testd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Leetcode/Testd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Leetcode/Testd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +39,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>peek</find>
-      <find>putVal</find>
-      <find>HashMap</find>
-      <find>put</find>
-      <find>hash</find>
-      <find>loadClass</find>
-      <find>TreeNode</find>
-      <find>Find</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,14 +84,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="Application.Leet24">
-    <configuration name="Generic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.泛型.Generic" />
+  <component name="RunManager" selected="Application.Leet242">
+    <configuration name="Leet20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Leetcode.day1.Leet20" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.泛型.*" />
+          <option name="PATTERN" value="main.Leetcode.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leet206" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Leetcode.day1.Leet206" />
+    <configuration name="Leet239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Leetcode.day2.Leet239" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.Leetcode.day1.*" />
+          <option name="PATTERN" value="main.Leetcode.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,7 +119,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.Leetcode.day1.*" />
+          <option name="PATTERN" value="main.Leetcode.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,13 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stack2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.栈相关和队列.Stack2" />
+    <configuration name="Leet242" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Leetcode.day2.Leet242" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.栈相关和队列.*" />
+          <option name="PATTERN" value="main.Leetcode.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,19 +178,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Generic" />
-      <item itemvalue="Application.Stack2" />
-      <item itemvalue="Application.Leet206" />
       <item itemvalue="Application.Testd" />
       <item itemvalue="Application.Leet24" />
+      <item itemvalue="Application.Leet20" />
+      <item itemvalue="Application.Leet239" />
+      <item itemvalue="Application.Leet242" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Leet24" />
-        <item itemvalue="Application.Leet206" />
+        <item itemvalue="Application.Leet242" />
+        <item itemvalue="Application.Leet239" />
+        <item itemvalue="Application.Leet20" />
         <item itemvalue="Application.Testd" />
-        <item itemvalue="Application.Stack2" />
-        <item itemvalue="Application.Generic" />
+        <item itemvalue="Application.Leet24" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +242,9 @@
       <workItem from="1589962018063" duration="4481000" />
       <workItem from="1594821590232" duration="602000" />
       <workItem from="1594997041048" duration="345000" />
-      <workItem from="1595033978237" duration="15756000" />
+      <workItem from="1595033978237" duration="19131000" />
+      <workItem from="1595148434266" duration="11513000" />
+      <workItem from="1595165628324" duration="1579000" />
     </task>
     <task id="LOCAL-00001" summary="日常练习 坚持坚持">
       <created>1540631410336</created>
@@ -313,50 +295,58 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1595057770466">
+    <state x="533" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1595153244012">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state x="533" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1440.810@0.23.1440.810" timestamp="1595057770466" />
-    <state width="499" height="466" key="DebuggerActiveHint" timestamp="1595062260972">
+    <state x="533" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1440.810@0.23.1440.810" timestamp="1595153244012" />
+    <state width="549" height="466" key="DebuggerActiveHint" timestamp="1595166566893">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="499" height="466" key="DebuggerActiveHint/0.23.1440.810@0.23.1440.810" timestamp="1595062260972" />
-    <state width="1398" height="202" key="GridCell.Tab.0.bottom" timestamp="1595063804558">
+    <state width="549" height="466" key="DebuggerActiveHint/0.23.1440.810@0.23.1440.810" timestamp="1595166566893" />
+    <state width="1398" height="258" key="GridCell.Tab.0.bottom" timestamp="1595171029258">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1595063804558" />
-    <state width="1398" height="202" key="GridCell.Tab.0.center" timestamp="1595063804557">
+    <state width="1398" height="258" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1595171029258" />
+    <state width="1398" height="258" key="GridCell.Tab.0.center" timestamp="1595171029258">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1595063804557" />
-    <state width="1398" height="202" key="GridCell.Tab.0.left" timestamp="1595063804556">
+    <state width="1398" height="258" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1595171029258" />
+    <state width="1398" height="258" key="GridCell.Tab.0.left" timestamp="1595171029258">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1595063804556" />
-    <state width="1398" height="202" key="GridCell.Tab.0.right" timestamp="1595063804557">
+    <state width="1398" height="258" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1595171029258" />
+    <state width="1398" height="258" key="GridCell.Tab.0.right" timestamp="1595171029258">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1595063804557" />
-    <state width="1398" height="213" key="GridCell.Tab.1.bottom" timestamp="1595063081029">
+    <state width="1398" height="258" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1595171029258" />
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1595171029248">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.1.bottom/0.23.1440.810@0.23.1440.810" timestamp="1595063081029" />
-    <state width="1398" height="213" key="GridCell.Tab.1.center" timestamp="1595063081029">
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom/0.23.1440.810@0.23.1440.810" timestamp="1595171029248" />
+    <state width="1398" height="258" key="GridCell.Tab.1.center" timestamp="1595171029248">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.1.center/0.23.1440.810@0.23.1440.810" timestamp="1595063081029" />
-    <state width="1398" height="213" key="GridCell.Tab.1.left" timestamp="1595063081028">
+    <state width="1398" height="258" key="GridCell.Tab.1.center/0.23.1440.810@0.23.1440.810" timestamp="1595171029248" />
+    <state width="1398" height="258" key="GridCell.Tab.1.left" timestamp="1595171029248">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.1.left/0.23.1440.810@0.23.1440.810" timestamp="1595063081028" />
-    <state width="1398" height="213" key="GridCell.Tab.1.right" timestamp="1595063081029">
+    <state width="1398" height="258" key="GridCell.Tab.1.left/0.23.1440.810@0.23.1440.810" timestamp="1595171029248" />
+    <state width="1398" height="258" key="GridCell.Tab.1.right" timestamp="1595171029248">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.1.right/0.23.1440.810@0.23.1440.810" timestamp="1595063081029" />
+    <state width="1398" height="258" key="GridCell.Tab.1.right/0.23.1440.810@0.23.1440.810" timestamp="1595171029248" />
     <state x="332" y="41" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595036330661">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="332" y="41" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.810@0.23.1440.810" timestamp="1595036330661" />
+    <state x="265" y="164" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595165526716">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="265" y="164" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.810@0.23.1440.810" timestamp="1595165526716" />
+    <state x="421" y="183" width="598" height="490" key="find.popup" timestamp="1595153170765">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="421" y="183" width="598" height="490" key="find.popup/0.23.1440.810@0.23.1440.810" timestamp="1595153170765" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -366,8 +356,44 @@
           <line>43</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Leetcode/day1/Leet20.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Leetcode/day1/Leet20.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Leetcode/day1/Leet20.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Leetcode/day1/Leet20.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Leetcode/day1/Leet20.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Leetcode/day1/Leet20.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="nums[queue.peekLast()]" />
+        <watch expression="nums[i]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="masterDetails">
     <states>

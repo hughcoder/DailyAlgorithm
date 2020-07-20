@@ -73,5 +73,7 @@ public class Testd {
         System.out.println("xiaohong------>"+xiaohong.name);
         System.out.println("xiaoming------>"+xiaoming.pet.petName);
 //        System.out.println("xiaohong------>"+xiaohong.pet.petName);
+
+        System.out.println(2/2);
     }
 }
