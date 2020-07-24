@@ -38,6 +38,5 @@ public class Leet235 {
         treeNode.right = noder;
         System.out.println("val--->"+ lowestCommonAncestor(treeNode,b,c).val);
 
-
     }
 }
