@@ -79,11 +79,17 @@ public class Testd {
 //        char c = 'd';
 //        System.out.println(c);
 //        System.out.println(c - 'a');
-        System.out.println( 6 >> 1);
-        System.out.println( 5 >> 1);
-        System.out.println( 4 >> 1);
-        System.out.println( 3 >> 1);
-        System.out.println( 2 >> 1);
-        System.out.println( 1 >> 1);
+//        System.out.println( 6 >> 1);
+//        System.out.println( 5 >> 1);
+//        System.out.println( 4 >> 1);
+//        System.out.println( 3 >> 1);
+//        System.out.println( 2 >> 1);
+//        System.out.println( 1 >> 1);
+
+        char[][] a = {{'1'},{'0'},{'1'}};
+        char[][] b ={{'1','0','1'}};
+
+        System.out.println(a.length);
+        System.out.println(b.length);
     }
 }
