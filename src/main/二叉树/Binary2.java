@@ -8,10 +8,8 @@ public class Binary2 {
         if(root == null){   //1 如果根节点为null
             return;
         }
-        if(root.left == null && root.right ==null){  //2 如果根的左右节点为null
-            return;
-        }
-        //3
+
+        //2
         Binary1.TreeNode treeNode; //将每个根节点的左右位置对换
         treeNode = root.right;
         root.right = root.left;
