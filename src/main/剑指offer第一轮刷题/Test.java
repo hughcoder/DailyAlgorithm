@@ -14,6 +14,14 @@ public class Test {
 
         System.out.println(list1.size());
         System.out.println(list2.size());
+
+        StringBuilder builder = new StringBuilder();
+        builder.append(111);
+        builder.append(222);
+        System.out.println(builder.toString());
+        builder.reverse();
+        System.out.println(builder.toString()
+        );
     }
 
 }
