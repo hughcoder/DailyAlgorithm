@@ -6,22 +6,16 @@ import java.util.ArrayList;
 
 public class Test {
     public static void main(String args[]) {
-        ArrayList list1 = new ArrayList();
+        ArrayList<Integer> list1 = new ArrayList();
         list1.add(1);
-
-        ArrayList<ArrayList> list2 = new ArrayList();
-        list2.add(list1);
-
-        System.out.println(list1.size());
-        System.out.println(list2.size());
-
-        StringBuilder builder = new StringBuilder();
-        builder.append(111);
-        builder.append(222);
-        System.out.println(builder.toString());
-        builder.reverse();
-        System.out.println(builder.toString()
-        );
+        list1.add(2);
+        list1.add(3);
+        for (int i = 0; i < list1.size(); i++) {
+            System.out.println(list1.get(i));
+            if (list1.get(i) == 1) {
+                break;
+            }
+        }
     }
 
 }
