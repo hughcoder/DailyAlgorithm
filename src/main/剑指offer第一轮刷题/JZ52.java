@@ -5,9 +5,12 @@ package main.剑指offer第一轮刷题;
 //竟然要用动态规划
 public class JZ52 {
 
-//    public boolean match(char[] str, char[] pattern) {
-//
-//
-//
-//    }
+    public boolean match(char[] str, char[] pattern) {
+           String str1 = String.valueOf(str);
+           String str2 = String.valueOf(pattern);
+
+           return str1.matches(str2);
+
+
+    }
 }
