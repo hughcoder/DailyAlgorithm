@@ -19,14 +19,6 @@ public class JZ17 {
         return recursion(root1.left, sub.left) && recursion(root1.right, sub.right);
     }
 
-    public boolean isSubStructure(TreeNode A, TreeNode B) {
-        return (A != null && B != null) && (recur(A, B) || isSubStructure(A.left, B) || isSubStructure(A.right, B));
-    }
-    boolean recur(TreeNode A, TreeNode B) {
-        if(B == null) return true;
-        if(A == null || A.val != B.val) return false;
-        return recur(A.left, B.left) && recur(A.right, B.right);
-    }
 
 
 
