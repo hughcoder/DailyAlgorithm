@@ -50,8 +50,7 @@ public class JZ35 {
     }
 
     public static void main(String[] args) {
-        int[] array = {1, 2, 3, 4, 5, 6, 7, 0};
-
+        int[] array = {7, 5, 6, 4};
         System.out.println(InversePairs(array));
     }
 
