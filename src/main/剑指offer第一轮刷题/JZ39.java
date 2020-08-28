@@ -26,10 +26,18 @@ public class JZ39 {
         if (right == -1) {
             return -1;
         }
+        System.out.println(root.val + "每层节点---->" + (Math.abs(right - left) < 2 ? Math.max(left, right) + 1 : -1));
         return Math.abs(right - left) < 2 ? Math.max(left, right) + 1 : -1;
     }
 
     public static void main(String args[]) {
-
+        TreeNode node = new TreeNode(3);
+        node.left = new TreeNode(9);
+        TreeNode right = new TreeNode(2);
+        right.left = new TreeNode(1);
+        right.right = new TreeNode(7);
+        node.right = right;
+        JZ39 jz39 = new JZ39();
+        jz39.isBalanced(node);
     }
 }

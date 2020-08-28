@@ -6,4 +6,24 @@ package main.剑指offer第一轮错题;
 
 
 public class JZ39 {
+    public boolean IsBalanced_Solution(TreeNode root) {
+        return laterOrder(root) != -1;
+    }
+
+    private int laterOrder(TreeNode node) {
+        if (node == null) {
+            return 0; // null 重0开始
+        }
+
+        int left = laterOrder(node.left);
+        if (left == -1) {
+            return -1;
+        }
+        int right = laterOrder(node.right);
+        if (right == -1) {
+            return -1;
+        }
+
+        return Math.abs(left - right) > 1 ? -1 : Math.max(left, right) + 1;
+    }
 }
