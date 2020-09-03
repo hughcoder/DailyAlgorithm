@@ -64,7 +64,9 @@ public class JZ61 {
         right.left = new TreeNode(4);
         right.right = new TreeNode(5);
         node.right = right;
-        System.out.println(jz61.Serialize(node));
-        System.out.println(jz61.Deserialize("123##45####!"));
+        TreeNode cur = jz61.Deserialize("8,6,10,5,7,9,11");
+        System.out.println(jz61.Serialize(cur));
+//        System.out.println(jz61.Serialize(node));
+//        System.out.println(jz61.Deserialize("123##45####!"));
     }
 }
