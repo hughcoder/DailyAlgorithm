@@ -27,6 +27,8 @@ public class Test {
         flag = false;
         flag |= false;
         System.out.println("false\t|=\tfalse\t==>\t" + flag + "\n");
+
+
     }
 
     private static int addSum(int num) {
