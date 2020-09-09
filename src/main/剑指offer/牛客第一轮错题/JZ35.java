@@ -73,7 +73,8 @@ public class JZ35 {
     }
 
     public static void main(String[] args) {
-        int[] array = {7, 5, 6, 4};
+//        int[] array = {7, 5, 6, 4};
+        int[] array = {5, 4, 3, 2};
         JZ35 jz35 = new JZ35();
         System.out.println(jz35.reversePairs(array));
     }
