@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+//https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/20200321438median-by-jasion_han-r/
+//放弃了 只能看解析了
 public class Leetf438 {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> list = new ArrayList<>();
