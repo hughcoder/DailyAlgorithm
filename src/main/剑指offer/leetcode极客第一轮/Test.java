@@ -11,6 +11,12 @@ public class Test {
         System.out.println(c.length());
         System.out.println(s.equals(" "));
         System.out.println(s.equals(""));
+        System.out.println(5/2);
+
+        System.out.println("---------");
+        System.out.println(0/3);
+        System.out.println(1/3);
+        System.out.println(8/3);
     }
 
 
