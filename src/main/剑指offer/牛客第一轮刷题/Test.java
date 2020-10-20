@@ -19,6 +19,8 @@ public class Test {
         Test test = new Test();
         test.laterOrder(node);
         System.out.println(test.nodeList);
+
+        System.out.println(-1 != -1.00000);
     }
 
     public int movingCount(int level) {

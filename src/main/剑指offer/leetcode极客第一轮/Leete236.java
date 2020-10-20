@@ -10,6 +10,18 @@ public class Leete236 {
 
         TreeNode left = lowestCommonAncestor(root.left, p, q);
         TreeNode right = lowestCommonAncestor(root.right, p, q);
+        System.out.println("后序遍历---->"+root.val);
+//        if(left!=null){
+//            System.out.println("left----->"+left.val);
+//        }else {
+//            System.out.println("left----->空");
+//        }
+//
+//        if(right!=null){
+//            System.out.println("right----->"+right.val);
+//        }else {
+//            System.out.println("right----->空");
+//        }
 
         if (left == null) {
             return right;
@@ -34,4 +46,8 @@ public class Leete236 {
         node.right = right;
         leete235.lowestCommonAncestor(node, node7, node9);
     }
+
+    //  6
+    //2   8
+    //   7 9
 }
