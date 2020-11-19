@@ -2,7 +2,7 @@ package main.剑指offer.第三阶段刷题;
 
 import main.剑指offer.牛客第一轮刷题.JZ65;
 
-//矩阵中的路径
+//矩阵中的路径  回溯要复原
 public class JZ12 {
     //递归遍历
     boolean visited[][];
@@ -33,8 +33,10 @@ public class JZ12 {
             return true;
         }
 
-        return dfs(board, row + 1, col, index + 1) || dfs(board, row - 1, col, index + 1) ||
+        boolean res = dfs(board, row + 1, col, index + 1) || dfs(board, row - 1, col, index + 1) ||
                 dfs(board, row, col + 1, index + 1) || dfs(board, row, col - 1, index + 1);
+        visited[row][col] =false;
+        return res;
     }
 
     public static void main(String args[]) {

@@ -53,9 +53,12 @@ public class JZ65 {
 
     public static void main(String args[]) {
         JZ65 jz65 = new JZ65();
-        char[] a = {'A', 'B', 'C', 'E', 'S', 'F', 'C', 'S', 'A', 'D', 'E', 'E'};
-        char[] test = {'A', 'B', 'C', 'C', 'E', 'D'};
-
-        System.out.println(jz65.hasPath(a, 3, 4, test));
+        char[] a = {'A', 'B', 'C', 'E',
+                'S', 'F', 'E', 'S',
+                'A', 'D', 'E', 'E'};
+//        char[] test = {'A', 'B', 'C', 'C', 'E', 'D'};
+//        char[] test = {'A', 'B', 'C', 'C', 'E', 'D'};
+        String target = "ABCESEEEFS";
+        System.out.println(jz65.hasPath(a, 3, 4, target.toCharArray()));
     }
 }
