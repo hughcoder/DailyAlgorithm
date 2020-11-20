@@ -42,6 +42,7 @@ public class JZ66 {
     public static void main(String args[]) {
         JZ66 jz66 = new JZ66();
         System.out.println(jz66.movingCount(5, 10, 10));
+        System.out.println(jz66.movingCount(8, 20, 23));
     }
 
 
