@@ -1,36 +1,21 @@
 package main.java;
 
+import java.lang.reflect.Method;
+
 public class Test1 {
-    public static void main(String args[]) throws ClassNotFoundException {
+    public void hello() {
+        System.out.println("当前类由" + getClass().getClassLoader().getClass()
+                + " 加载");
+    }
+    public static void main(String args[]) throws Exception {
         Test1 t1 = new Test1();
-        Test1 t2 = new Test1();
+        t1.hello();
 
-//        System.out.println(t1 == t2);
-//        System.out.println(t1.equals(t2));
+        CustomClassLoader customClassLoader = new CustomClassLoader("./Download");
+        Class clazz = customClassLoader.loadClass("main.java.Test1");
+        Object obj = clazz.newInstance();
+        Method helloMethod = clazz.getDeclaredMethod("hello", null);
+        helloMethod.invoke(obj, null);
 
-//        int a = 1;
-//        int b = 1;
-//        String c = "aa";
-//        String d = "aa";
-//        StringBuffer e =new StringBuffer("a");
-//        e.append("a");
-//        System.out.println(c.hashCode());
-//        System.out.println(d.hashCode());
-//        System.out.println(e.hashCode());
-//
-//
-//        System.out.println(a == b); //T
-//        System.out.println(c.equals(d));//T
-//        System.out.println(e.toString());
-//        System.out.println(c.equals(e)); //F
-//        System.out.println(c.equals(e.toString()));//T
-//        System.out.println(c == e.toString());//F
-//        System.out.println(c == d);//T
-
-        System.out.println(0x3c << 16);
-
-
-        Class<?> aClass = Class.forName("main.Book");
-        System.out.println(aClass.getClass().getSimpleName());
     }
 }
