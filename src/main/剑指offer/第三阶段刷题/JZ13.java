@@ -31,18 +31,16 @@ public class JZ13 {
 //        visited[start][end] = false;
     }
 
-    private int getRealIndex(int num) {
-        int sum = 0;
-        while (num >= 9) {
-            if(num % 10 !=0){
-                sum += num / 10;
-                num = num / 10;
-            }else {
-                num = num / 10;
-            }
+    private int getRealIndex(int x) {
+        int res = 0;
+        while (x != 0) {
+            res += x % 10;
+            x /= 10;
         }
-        return sum + num;
+        return res;
     }
+
+
 
     public static void main(String args[]) {
         JZ13 jz13 = new JZ13();
