@@ -25,16 +25,18 @@ public class JZ20 {
     }
 
     public void pop() {
-        if (stackMain.peek() == stackMin.peek()) {
+        if (stackMain.peek().equals(stackMin.peek())) {
             stackMin.pop();
         }
         stackMain.pop();
 
     }
+
     //top和min需要用peek 不减少原栈
     public int top() {
         return stackMain.peek();
     }
+
     public int min() {
         return stackMin.peek();
     }
