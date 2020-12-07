@@ -17,6 +17,10 @@ public class Test {
 
         System.out.println(9&(9-1));
 
+        System.out.println(0%4);
+        System.out.println(1%4);
+        System.out.println(2%4);
+        System.out.println(3%4);
 
     }
 }
