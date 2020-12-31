@@ -21,5 +21,6 @@ public class JZ42 {
         JZ42 jz42 = new JZ42();
         int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         System.out.println(jz42.maxSubArray(nums));
+
     }
 }
