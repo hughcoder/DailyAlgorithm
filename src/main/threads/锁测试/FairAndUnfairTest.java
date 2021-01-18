@@ -66,7 +66,7 @@ public class FairAndUnfairTest {
 
         public Collection<Thread> getQueueThreads() {
             List<Thread> arrayList = new ArrayList<Thread>(super.getQueuedThreads());
-            Collections.reverse(arrayList);
+            Collections.reverse(arrayList);//降序排序
             return arrayList;
         }
 
