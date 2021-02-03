@@ -1,43 +1,41 @@
 package main.剑指offer.第三阶段刷题;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class JZ57_2 {
 
     //输入一个正整数 target ，输出所有和为 target 的连续正整数序列（至少含有两个数）。
     //
     //序列内的数字由小到大排列，不同序列按照首个数字从小到大排列。
+    //正整数序列从1开始到N
 
-    public ArrayList<ArrayList<Integer>> findContinuousSequence(int target) {
-        //区间
+    public int[][] findContinuousSequence(int target) {
         int left = 1;
         int right = 2;
-        ArrayList<Integer> singleList = new ArrayList<>();
-        ArrayList<ArrayList<Integer>> allList = new ArrayList<>();
-
+        int s = 3;
+        List<int[]> res = new ArrayList<>();
         while (left<right){
-            int sum = (left+right)*(right-left)/2;
-            if(sum == target){
-                for(int i =left;i<right;i++){
-                    singleList.clear();
-                    singleList.add(i);
-                    allList.add(new ArrayList<>(singleList));
+            if(s == target){
+                int[] a = new int[right-left+1];
+                for(int i =left;i<=right;i++){
+                    a[i-left] = i;
                 }
-            }else if(sum<target){
+                res.add(a);
+            }else if(s<target){
                 right++;
+                s+=right;
             }else {
+                s-=left;
                 left++;
             }
-
         }
-
-        return allList;
-
+        return res.toArray(new int[0][]);
     }
 
     public static void main(String args[]) {
         JZ57_2 jz57 = new JZ57_2();
-        System.out.println(jz57.findContinuousSequence(9));
+
     }
 
 }

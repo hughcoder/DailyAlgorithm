@@ -12,15 +12,16 @@ public class Test {
     }
 
     public static void main(String args[]) {
-        Test test = new Test();
-        System.out.println(test.getRealIndex(30));
+     String str = "\\(这句也要打分)（）((";
+        System.out.println(str. replaceAll("\\{", "")
+                .replaceAll("\\}", "")
+                .replace("\\(","")
+                .replace("\\)","")
+                .replace('(',' ')
+                .replace(')',' ')
+                .replace('（',' ')
+                .replace('）',' ')
 
-        System.out.println(9&(9-1));
-
-        System.out.println(0%4);
-        System.out.println(1%4);
-        System.out.println(2%4);
-        System.out.println(3%4);
-
+        );
     }
 }
