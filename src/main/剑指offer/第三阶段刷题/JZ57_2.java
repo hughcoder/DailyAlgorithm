@@ -22,7 +22,8 @@ public class JZ57_2 {
                     a[i-left] = i;
                 }
                 res.add(a);
-            }else if(s<target){
+            }
+            if(s<target){
                 right++;
                 s+=right;
             }else {
@@ -33,8 +34,12 @@ public class JZ57_2 {
         return res.toArray(new int[0][]);
     }
 
+
+
+
     public static void main(String args[]) {
         JZ57_2 jz57 = new JZ57_2();
+        jz57.findContinuousSequence(9);
 
     }
 

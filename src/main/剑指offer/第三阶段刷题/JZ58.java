@@ -9,28 +9,18 @@ public class JZ58 {
     //输出: "blue is sky the"
 
     public String reverseWords(String s) {
-
-
         String[] strs = s.split(" ");
         StringBuilder sb = new StringBuilder();
 
         for (int i = strs.length-1; i >= 0; i--) {
+            if(strs[i].equals("")) continue;
             sb.append(strs[i]);
             sb.append(" ");
         }
 
-        return sb.toString();
+        return sb.toString().trim();
     }
 
-    public String reverseWordszz(String s) {
-        String[] strs = s.trim().split(" "); // 删除首尾空格，分割字符串
-        StringBuilder res = new StringBuilder();
-        for(int i = strs.length - 1; i >= 0; i--) { // 倒序遍历单词列表
-            if(strs[i].equals("")) continue; // 遇到空单词则跳过
-            res.append(strs[i] + " "); // 将单词拼接至 StringBuilder
-        }
-        return res.toString().trim(); // 转化为字符串，删除尾部空格，并返回
-    }
 
 
 
