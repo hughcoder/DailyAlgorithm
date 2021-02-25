@@ -23,5 +23,16 @@ public class Test {
                 .replace('）',' ')
 
         );
+
+        String cnStr = "山不在高，";
+        System.out.println(cnStr.replace("，",""));
+
+        String zzz = "有龙则灵。\r";
+        String ccc = zzz.replace("\r","");
+        System.out.println(zzz.length());
+        System.out.println(ccc.length());
+
+        String ggg = "    示儿";
+        System.out.println(ggg.replace("\r","").replace(" ",""));
     }
 }
