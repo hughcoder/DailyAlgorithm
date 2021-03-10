@@ -1,4 +1,4 @@
-package main.threads.同步相关;
+package main.java.并发同步.threads.同步相关;
 
 /**
  * 除了使用关键字修饰实例方法和静态方法外，还可以使用同步代码块，在某些情况下，我们编写的方法体可能比较大，

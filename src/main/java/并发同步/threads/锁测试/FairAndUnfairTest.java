@@ -1,4 +1,4 @@
-package main.threads.锁测试;
+package main.java.并发同步.threads.锁测试;
 
 import java.util.ArrayList;
 import java.util.Collection;

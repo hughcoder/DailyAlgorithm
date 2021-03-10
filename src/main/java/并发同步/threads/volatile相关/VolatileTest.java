@@ -1,4 +1,4 @@
-package main.threads.volatile相关;
+package main.java.并发同步.threads.volatile相关;
 
 public class VolatileTest {
     public static volatile int race = 0;

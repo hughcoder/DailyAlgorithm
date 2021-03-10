@@ -1,7 +1,4 @@
-package main.threads;
-
-import java.util.concurrent.Callable;
-import java.util.concurrent.FutureTask;
+package main.java.并发同步.threads;
 
 public class Thread1 {
 

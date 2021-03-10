@@ -1,4 +1,4 @@
-package main.threads.同步相关;
+package main.java.并发同步.threads.同步相关;
 
 public class AccountingSync implements Runnable{
     //共享资源(临界资源)

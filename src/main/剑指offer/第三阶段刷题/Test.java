@@ -1,5 +1,8 @@
 package main.剑指offer.第三阶段刷题;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Test {
 
     private int getRealIndex(int x) {
@@ -34,5 +37,14 @@ public class Test {
 
         String ggg = "    示儿";
         System.out.println(ggg.replace("\r","").replace(" ",""));
+
+
+        List<String> list = new ArrayList<>();
+        list.add("1");
+        list.add("1");
+        list.add("1");
+        System.out.println(list.subList(0,1).size());
+        List<String> hhlist = list.subList(0,list.size());
+        System.out.println(hhlist.toString());
     }
 }

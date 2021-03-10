@@ -1,4 +1,4 @@
-package main.threads;
+package main.java.并发同步.threads;
 
 // 1. 把java文件编译为class文件：javac  Test.java  (Test.java为java文件名) 生成对应的 .class 文件 Test.class
 // 2.执行javap操作：javap 命令行 class文件名称（不加 .class后缀）
@@ -19,10 +19,10 @@ public class SyncCodeBlock {
 // .class文件实际是一堆二进制流 是因为编译器编译掉了
 
 /**
- *public class main.threads.SyncCodeBlock {
+ *public class main.java.并发同步.threads.SyncCodeBlock {
  public int i;
 
- public main.threads.SyncCodeBlock();
+ public main.java.并发同步.threads.SyncCodeBlock();
  Code:
  0: aload_0
  1: invokespecial #1                  // Method java/lang/Object."<init>":()V

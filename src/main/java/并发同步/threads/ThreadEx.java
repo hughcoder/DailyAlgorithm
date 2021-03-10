@@ -1,4 +1,4 @@
-package main.threads;
+package main.java.并发同步.threads;
 
 //Thread 与 Runnable 的区别？
 public class ThreadEx extends Thread {

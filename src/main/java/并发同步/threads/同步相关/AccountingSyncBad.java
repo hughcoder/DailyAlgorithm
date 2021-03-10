@@ -1,4 +1,4 @@
-package main.threads.同步相关;
+package main.java.并发同步.threads.同步相关;
 
 public class AccountingSyncBad implements Runnable {
     static int i = 0;

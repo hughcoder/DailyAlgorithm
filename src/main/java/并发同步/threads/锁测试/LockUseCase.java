@@ -1,6 +1,4 @@
-package main.threads.锁测试;
-
-import main.threads.ThreadRun;
+package main.java.并发同步.threads.锁测试;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
