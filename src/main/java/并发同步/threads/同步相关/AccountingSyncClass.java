@@ -8,7 +8,7 @@ public class AccountingSyncClass implements Runnable {
      * 作用于静态方法,锁是当前class对象,也就是
      * AccountingSyncClass类对应的class对象
      */
-    public static synchronized void increase(){
+    public  synchronized void increase(){
         i++;
     }
     /**

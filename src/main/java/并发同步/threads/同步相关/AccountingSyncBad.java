@@ -1,6 +1,7 @@
 package main.java.并发同步.threads.同步相关;
 
 public class AccountingSyncBad implements Runnable {
+    //这边两个对象了
     static int i = 0;
 
     public synchronized void increase() {
