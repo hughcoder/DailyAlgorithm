@@ -11,21 +11,21 @@ public class Leet168 {
 //除留余数法
     public String convertToTitle(int n) {
         StringBuilder sb = new StringBuilder();
-        while (n%26!=0){
+        while (n != 0) {
             n--;
-            sb.append((char)('A'+n%26));
-            n = n/26;
+            sb.append((char)('A' + n % 26));
+            n /= 26;
         }
         return sb.reverse().toString();
 
     }
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
         Leet168 leet168 = new Leet168();
 
         System.out.println(leet168.convertToTitle(1));
         System.out.println(leet168.convertToTitle(27));
         System.out.println(leet168.convertToTitle(28));
-        System.out.println(28/26);
+        System.out.println(28 / 26);
     }
 }

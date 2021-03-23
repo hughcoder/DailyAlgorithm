@@ -22,9 +22,9 @@ public class JZ48 {
 
     public static void main(String args[]) {
         JZ48 jz48 = new JZ48();
-//        System.out.println(jz48.lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(jz48.lengthOfLongestSubstring("abcabcbb"));
 //        System.out.println(jz48.lengthOfLongestSubstring("bbbbbb"));
 //        System.out.println(jz48.lengthOfLongestSubstring("pwwkew"));
-        System.out.println(jz48.lengthOfLongestSubstring("dvdf"));
+//        System.out.println(jz48.lengthOfLongestSubstring("dvdf"));
     }
 }
