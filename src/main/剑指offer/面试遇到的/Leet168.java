@@ -12,10 +12,10 @@ public class Leet168 {
 //除留余数法
     public String convertToTitle(int n) {
         StringBuilder sb = new StringBuilder();
-        while (n!=0){
-            n--; //因为A从1开始
-            sb.append((char)('A'+n%26));
-            n/=26;
+        while (n != 0) {
+            n--;
+            sb.append((char)('A' + n % 26));
+            n /= 26;
         }
         return sb.reverse().toString();
     }
@@ -23,8 +23,6 @@ public class Leet168 {
     public static void main(String args[]) {
         Leet168 leet168 = new Leet168();
         System.out.println(1 / 26);
-
         System.out.println(leet168.convertToTitle(701));
-
     }
 }
