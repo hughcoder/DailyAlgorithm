@@ -18,6 +18,7 @@ public class InvocationHandlerImpl implements InvocationHandler {
     @Override
     public Object invoke(Object o, Method method, Object[] objects) throws Throwable {
         System.out.println("Before call");
+        System.out.println("---->"+method.getName());
         method.invoke(operate,objects);
         System.out.println("After call");
         return null;

@@ -12,6 +12,13 @@ public class OperatorProxy  implements Operate{
         operator.doSomething();
         afterDoSomething();
     }
+
+    @Override
+    public void sleep() {
+        System.out.println("开始");
+        operator.sleep();
+    }
+
     private void beforeDoSomething() {
         System.out.println("Before do something");
     }

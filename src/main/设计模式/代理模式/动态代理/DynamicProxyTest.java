@@ -11,9 +11,16 @@ public class DynamicProxyTest {
     public static void main(String[] args) {
         Operate operate = new Operator();
         InvocationHandler invocationHandler = new InvocationHandlerImpl(operate);
-        Operate operateProxy = (Operate) Proxy.newProxyInstance(operate.getClass().getClassLoader(), operate.getClass().getInterfaces(), invocationHandler);
+        Operate operateProxy = (Operate) Proxy.newProxyInstance(operate.getClass().getClassLoader(),
+                operate.getClass().getInterfaces(), invocationHandler);
         operateProxy.doSomething();
+//        operateProxy.sleep();
 
+        Operator2 operator2 = new Operator2();
+        InvocationHandler invocationHandler2 = new InvocationHandlerImpl(operator2);
+        Operate operateProxy22 = (Operate) Proxy.newProxyInstance(operator2.getClass().getClassLoader(), operator2.getClass().getInterfaces(), invocationHandler2);
+//        operateProxy22.doSomething();
+//        operateProxy22.sleep();
     }
 
     //既然动态代理是通过运行时生成类来实现的，那么还有没有别的方式运行时动态生成类呢

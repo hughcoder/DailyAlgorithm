@@ -6,4 +6,9 @@ public class Operator implements Operate{
     public void doSomething() {
         System.out.println("i'm doing something");
     }
+
+    @Override
+    public void sleep() {
+        System.out.println("i am sleeping");
+    }
 }
